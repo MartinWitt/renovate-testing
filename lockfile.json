@@ -1,0 +1,104 @@
+{
+  "artifactId": "demo",
+  "groupId": "com.example",
+  "version": "1.0-SNAPSHOT",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.11",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe",
+      "scope": "test",
+      "selectedVersion": "4.11",
+      "id": "junit:junit:4.11",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "1.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+          "scope": "test",
+          "selectedVersion": "1.3",
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "parent": "junit:junit:4.11",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "mavenPlugins": [
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-site-plugin",
+      "version": "3.7.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "f37db063922636ff33f2315ee85c905bba98daa411765b8b28bd8567da8be2ef"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-clean-plugin",
+      "version": "3.1.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "95a568b529d34949c13e9011d249c602f6c3ab0f295e5e826ef35b6a60656930"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-jar-plugin",
+      "version": "3.0.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "041cd072082f9363c09a8c943088f3abb0b9b899dcaf3726db3e4054ab683246"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-compiler-plugin",
+      "version": "3.8.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "218ea53e0b729b79cd1b87a5c3d9e3d66d7c8d3a985c5556965b6967a7c5b2a5"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-surefire-plugin",
+      "version": "2.22.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "5706dd538d4ee2fb25ed23f579eabbf0e626a27110799b88283ad18b2ff24b6d"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-install-plugin",
+      "version": "2.5.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6df70c50e3b2ac119a226535fc03b7451fb34c3062021eb7bbf670c53d0b925d"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-resources-plugin",
+      "version": "3.0.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "47e095c056b3dd855d704117b4e7478edc9b7e9cfc872d84fff1fc45cc88d128"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-deploy-plugin",
+      "version": "2.8.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "deefc1702044a42b137558f2391caa7a6a4c3c2092840f08256568dd3b7f2b4e"
+    }
+  ],
+  "metaData": {
+    "environment": {
+      "osName": "Windows 11",
+      "mavenVersion": "3.9.1",
+      "javaVersion": "20.0.2"
+    },
+    "config": {
+      "includeMavenPlugins": true,
+      "reduced": false,
+      "mavenLockfileVersion": "5.0.0",
+      "checksumMode": "maven_local",
+      "checksumAlgorithm": "SHA-256"
+    }
+  }
+}
