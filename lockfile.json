@@ -61,9 +61,9 @@
     {
       "groupId": "org.apache.maven.plugins",
       "artifactId": "maven-surefire-plugin",
-      "version": "2.22.1",
+      "version": "2.22.2",
       "checksumAlgorithm": "SHA-256",
-      "checksum": "5706dd538d4ee2fb25ed23f579eabbf0e626a27110799b88283ad18b2ff24b6d"
+      "checksum": "d8e3571a8c13e080a0a101016f16bd2c84d62440283143838388093e482f4675"
     },
     {
       "groupId": "org.apache.maven.plugins",
@@ -89,9 +89,9 @@
   ],
   "metaData": {
     "environment": {
-      "osName": "Windows 11",
-      "mavenVersion": "3.9.1",
-      "javaVersion": "20.0.2"
+      "osName": "Linux",
+      "mavenVersion": "3.6.3",
+      "javaVersion": "11.0.20.1"
     },
     "config": {
       "includeMavenPlugins": true,
